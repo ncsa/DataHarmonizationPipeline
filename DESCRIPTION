@@ -1,0 +1,15 @@
+Package: DataHarmonizationPipeline
+Title: An automated statistical analysis pipeline in R for use on public health datasets
+Version: 0.0.0.9000
+Authors@R: person("NCSA", "", email = "dipror2@illinois.edu", role = c("aut", "cre"))
+Description: An open-source software package easily usable by scientists to identify combinations of factors responsible 
+  for healthy disparities. A computationally efficient statistical packages that 
+  makes use of the host computer’s architecture and resources.
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    pcaMethods,
+    ggplot2
