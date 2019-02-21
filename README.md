@@ -16,4 +16,4 @@ The entire package is written in R, using the RStudio IDE. The following instruc
 * Run ```.R/DataPipelineDriver_New.R```, and it will automatically download any package dependencies. To view a list of dependencies, view the ```DESCRIPTION``` file.
 
 ## Further Information
-Additional information regarding code design, implementation and documentation can be found in ```design.md```.
+Additional information regarding code design, implementation and documentation can be found in ```more_info.md```.
