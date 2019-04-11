@@ -1,19 +1,5 @@
-# Data Harmonization Pipeline
-An automated statistical analysis pipeline in R for use on public health datasets, developed at NCSA.
+# Data Harmonization Pipeline - SparkR branch
 
-## Description
-* An open-source software package easily usable by scientists to identify combinations of factors responsible for healthy disparities. 
-* A computationally efficient statistical package that makes use of the host computer’s architecture and resources.
-* A modularized, flexible, portable and easily-depolyable implementation of a statistical pipeline for data analysis on health datasets.
-
-## Authors
-Sijia Huo, Dipro Ray, Liudmila Mainzer, Zeynep Madak-Erdogan
-
-## Installation
-The entire package is written in R, using the RStudio IDE. The following instructions are to set up the package to be run in RStudio.
-
-* ```git clone``` the repository into your workspace directory, and open the ```.Rproj``` file with RStudio.
-* Run ```.R/DataPipelineDriver_New.R```, and it will automatically download any package dependencies. To view a list of dependencies, view the ```DESCRIPTION``` file.
-
-## Further Information
-Additional information regarding code design, implementation and documentation can be found in ```more_info.md```.
+This branch has all the SparkR code and demos I have worked with, in folders ```sparkr_demos``` and ```sparkr_code```.
+* ```sparkr_demos``` - bunch of Jupyter notebooks I have been learning different SparkR stuff from. A lot of things I learnt are based off [this](https://github.com/jadianes/spark-r-notebooks) resource, and from [the official documentation](https://spark.apache.org/docs/latest/sparkr.html).
+* ```sparkr_code``` - adapting the package's code into SparkR. Since implementation is buggy, I am working with Jupyter notebooks to be able to resolve bugs quickly (as opposed to using RStudio right now - I find Jupyter notebooks easier to debug with). Once my prototype is bug-free and works substantially well, I'll port it over to RStudio.
